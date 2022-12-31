@@ -1,0 +1,17 @@
+button.boton{
+    padding: 5px;
+    border: 1px solid white;
+    background-color: aquamarine;
+    transition: all 2s;
+    font-size: 1.5em;
+    border-radius: 10%;
+    margin: 10px;
+  }
+  
+  button.boton:hover{
+    background-color: blue;
+  }
+
+  button.reiniciar{
+    
+  }

@@ -1,7 +1,7 @@
 import '../css/boton.css';
-function Boton({texto, onClick}){
+function Boton({texto, onClick, estiloExtra = ''}){
     return (
-        <button onClick={onClick}>{texto}</button>
+        <button className={'boton '+estiloExtra} onClick={onClick}>{texto}</button>
     );
 }
 

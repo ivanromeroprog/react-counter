@@ -3,10 +3,23 @@
   padding: 0;
   box-sizing: border-box;
 }
+body,html{
+  font-size: 18px;
+  font-family: 'Roboto', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 .App{
   max-width: 950px;
   margin: 0 auto;
   padding: 10px;
   background: #e1e1e1;
   min-height: calc(100vh);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
+.contenedor{
+ width: 100%;
+}
+
